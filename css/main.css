@@ -1,0 +1,27 @@
+body {
+	background-image: url('../img/background.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#MainPage{
+	height: 600px;
+}
+
+.searchBox {
+	width: 450px;
+	margin-left: auto;
+    margin-right: auto;
+	padding-top: 350px;
+	margin-bottom: auto;
+}
+
+@media (max-width: 500px) {
+	.searchBox {
+	width: 300px;
+	}
+}
+
+
