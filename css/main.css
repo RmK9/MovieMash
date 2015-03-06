@@ -6,22 +6,33 @@ body {
     background-size: cover;
 }
 
-#MainPage{
-	height: 600px;
+#mainLogo{
+	width: 60%;
+	height: 60%;
+	margin-left: 8em;
 }
 
 .searchBox {
-	width: 450px;
+	width: 650px;
 	margin-left: auto;
     margin-right: auto;
-	padding-top: 350px;
+	padding-top: 150px;
 	margin-bottom: auto;
+	-webkit-transition: width 0.5s; /* Safari */
+    -webkit-transition-timing-function: linear; /* Safari */
+    transition: width 0.5s;
+    transition-timing-function: linear;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 750px) {
 	.searchBox {
-	width: 300px;
+	width: 400px;
 	}
+	@media (max-width: 440px) {
+	.searchBox {
+	width: 260px;
+	}
+}
 }
 
 
